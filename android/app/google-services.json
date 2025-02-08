@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "352748753533",
+    "project_id": "novo-cinema-95def",
+    "storage_bucket": "novo-cinema-95def.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352748753533:android:d87a4595447c86fb671714",
+        "android_client_info": {
+          "package_name": "com.novo.cinemas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352748753533-b1chhsse9fck5k9ftl5abcup4ijl5uio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB__Y_ejlwL11vYHdq6dlhDAYtH7jP4Oms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352748753533-b1chhsse9fck5k9ftl5abcup4ijl5uio.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "352748753533-pjckqijsdj50ts3ed5pfimqar51c7f3d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.novo.cinemas"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+allprojects {
+    ext.kotlin_version = '2.0.20'
+    repositories {
+        google()
+        mavenCentral()
+
+//        flatDir {
+//            dirs 'gateway-repo'
+//        }
+
+        // Gateway Android SDK repo
+//        maven {
+//            url "$rootDir/gateway-repo"
+//        }
+
+
+    }
+}
+
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
